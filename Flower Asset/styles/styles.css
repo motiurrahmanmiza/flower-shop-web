@@ -1,34 +1,40 @@
 /* header related styles */
-.header{
+.header {
     background: rgba(229, 84, 115, 0.10);
-
+    display: flex;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.banner-container{
+
+.banner-container {
     max-width: 500px;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 500px;
     align-items: center;
 }
-.banner-title{
+
+.banner-title {
     font-size: 70px;
     font-weight: 800;
     color: #272727;
     margin-bottom: 0;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
     font-weight: 400;
     color: rgba(39, 39, 39, 0.60);
     margin-top: 5px;
 }
-.btn{
+
+.btn {
     border-radius: 8px;
     background: #E55473;
     border: 0;
@@ -38,4 +44,56 @@
     font-weight: 700;
     color: #FFF;
 }
+
 /* main section styles */
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    justify-content: center;
+    display: flex;
+}
+
+.section-info {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+    display: flex;
+}
+
+/* service section styles */
+.service-container {
+    background: #FFF;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+.img {
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.box-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 460px;
+    height: 520px;
+}
+
+.box-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 460px;
+    height: 520px;
+}
+
+.box-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 460px;
+    height: 520px;
+}
