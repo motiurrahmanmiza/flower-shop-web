@@ -213,3 +213,41 @@
     width: 700px;
     height: 50px;
 }
+
+.footer {
+    background: #111010;
+    padding: 120px 312px;
+}
+
+.shop-footer {
+    color: #FFF;
+    align-items: center;
+}
+
+.Flower {
+    color: #E55473;
+}
+
+.shop-footer h2 {
+    font-size: 48px;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+}
+
+.about {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* assignment desgin complete */
